@@ -10,7 +10,7 @@ const repoImages = {
 const repoWebsites = {
   "Typing-Test": "https://kalyandakkili.github.io/Typing-Test",
   "secure-file-sharing": "https://web-production-72c33.up.railway.app",
-  
+   "portfolo":" https://kalyandakkili.github.io/portfolio/"
   // Add more manual website URLs here
 };
 
