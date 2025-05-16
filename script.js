@@ -3,14 +3,14 @@ const username = "KalyanDakkili";
 const repoImages = {
   "Typing-Test": "assets/Typing Test.png",
   "secure-file-sharing": "assets/secure file sharing.png",
-  "portfolio": "assets/portfolio",
+ 
   // Add more mappings like this
 };
 
 const repoWebsites = {
   "Typing-Test": "https://kalyandakkili.github.io/Typing-Test",
   "secure-file-sharing": "https://web-production-72c33.up.railway.app",
-  "portfolio":https://kalyandakkili.github.io/portfolio/
+  
   // Add more manual website URLs here
 };
 
