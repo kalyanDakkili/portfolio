@@ -4,7 +4,7 @@ const repoImages = {
   "Typing-Test": "assets/Typing Test.png",
   "secure-file-sharing": "assets/secure file sharing.png",
   "portfolio": "assets/portfolio.png",
-  "Customer-Segmentation": "assets/Customer.jpg"
+  "Customer-Segmentation": "assets/Customer.jpg",
   // Add more mappings like this
 };
 
@@ -12,7 +12,7 @@ const repoWebsites = {
   "Typing-Test": "https://kalyandakkili.github.io/Typing-Test",
   "secure-file-sharing": "https://web-production-72c33.up.railway.app",
   "portfolio": "https://kalyandakkili.github.io/portfolio/",
-  "Customer-Segmentation":"https://customer-segmentation-rxsd.onrender.com"
+  "Customer-Segmentation":"https://customer-segmentation-rxsd.onrender.com",
   // Add more manual website URLs here
 };
 
