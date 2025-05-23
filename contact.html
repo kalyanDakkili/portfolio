@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+    function validateForm(event) {
+      const name = document.forms["contactForm"]["name"].value.trim();
+      const email = document.forms["contactForm"]["email"].value.trim();
+
+      const nameRegex = /^[A-Za-z\s]+$/;
+      const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+      if (!nameRegex.test(name)) {
+        alert("Name must contain only letters and spaces.");
+        event.preventDefault();
+        return false;
+      }
+
+      if (!emailRegex.test(email)) {
+        alert("Please enter a valid email address (e.g., name@example.com).");
+        event.preventDefault();
+        return false;
+      }
+
+      // Optional: block temporary/disposable email domains
+      const bannedDomains = ['tempmail.com', 'mailinator.com', '10minutemail.com'];
+      const emailDomain = email.split('@')[1].toLowerCase();
+
+      if (bannedDomains.includes(emailDomain)) {
+        alert("Disposable email addresses are not allowed.");
+        event.preventDefault();
+        return false;
+      }
+    }
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="logo">Kalyan Dakkili</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="certificates.html">Certificates</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="Dakkili Kalyan Resume.pdf" download class="resume-button"> Download My Resume</a>
+  </nav>
+
+  <div class="contact-wrapper">
+    <div class="contact-box">
+      <i class="fas fa-envelope contact-icon"></i>
+      <h2>Get in Touch</h2>
+      <form name="contactForm" action="https://formsubmit.co/kalyandakkili2@gmail.com" method="POST" onsubmit="validateForm(event)">
+         <input type="hidden" name="_next" value="https://kalyandakkili.github.io/portfolio/">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required
+               pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}">
+        <textarea name="message" placeholder="Please enter your message here..." required></textarea>
+        <button type="submit" class="submit-button">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 KALYAN DAKKILI, ALL RIGHTS RESERVED
+  </footer>
+</body>
+</html>
