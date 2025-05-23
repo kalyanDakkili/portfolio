@@ -56,23 +56,24 @@ nav ul li a.active::after {
   width: 100%;
 }
 
+
 .resume-button {
-  background: linear-gradient(135deg, #1f90ff, #00c6ff);
+  background: linear-gradient(135deg, #01060b, #040e11);
   color: white;
   padding: 12px 20px;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  box-shadow: 0 4px 10px rgba(31, 144, 255, 0.4);
+  box-shadow: 0 4px 10px rgba(239, 242, 245, 0.4);
   transition: all 0.3s ease;
   border: none;
 }
 
 .resume-button:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(31, 144, 255, 0.6);
-  background: linear-gradient(135deg, #00c6ff, #1f90ff);
+  box-shadow: 0 6px 15px rgba(234, 239, 244, 0.6);
+  background: linear-gradient(135deg, #02080a, #eff4f8);
 }
 
 header {
