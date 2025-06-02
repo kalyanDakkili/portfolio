@@ -4,7 +4,7 @@ const repoImages = {
   "Typing-Test": "assets/Typing Test.png",
   "portfolio": "assets/portfolio.png",
   "Customer-Segmentation": "assets/Customer.jpg",
-  "ecommerce-platform":
+  "ecommerce-platform":"assets/sc.png",
   // Add more mappings like this
 };
 
