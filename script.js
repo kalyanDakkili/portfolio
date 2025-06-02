@@ -4,6 +4,7 @@ const repoImages = {
   "Typing-Test": "assets/Typing Test.png",
   "portfolio": "assets/portfolio.png",
   "Customer-Segmentation": "assets/Customer.jpg",
+  "ecommerce-platform":
   // Add more mappings like this
 };
 
@@ -11,6 +12,7 @@ const repoWebsites = {
   "Typing-Test": "https://kalyandakkili.github.io/Typing-Test",
   "portfolio": "https://kalyandakkili.github.io/portfolio/",
   "Customer-Segmentation":"https://customer-segmentation-rxsd.onrender.com",
+   "ecommerce-platform":"https://ecommerce-platform-cywdnrpb5-dakkili-kalyan-s-projects.vercel.app",
   // Add more manual website URLs here
 };
 
