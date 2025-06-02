@@ -12,7 +12,7 @@ const repoWebsites = {
   "Typing-Test": "https://kalyandakkili.github.io/Typing-Test",
   "portfolio": "https://kalyandakkili.github.io/portfolio/",
   "Customer-Segmentation":"https://customer-segmentation-rxsd.onrender.com",
-   "ecommerce-platform":"https://ecommerce-platform-cywdnrpb5-dakkili-kalyan-s-projects.vercel.app",
+   "ecommerce-platform":"https://ecommerce-platform-3l13vtp18-dakkili-kalyan-s-projects.vercel.app",
   // Add more manual website URLs here
 };
 
