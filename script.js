@@ -3,9 +3,9 @@ const username = "KalyanDakkili";
 const repoImages = {
   "Typing-Test": "assets/Typing Test.png",
   "portfolio": "assets/portfolio.png",
-  "Customer-Segmentation": "assets/Customer.jpg",
+  "Customer-Segmentation":"assets/Customer.jpg",
   "ecommerce-platform":"assets/sc.png",
-  "Scalable-Observability-on-AWS" : "assets/sooa.png",
+  "Scalable-Observability-on-AWS":"assets/sooa.png",
   "System-Monitoring-Tool":"assets/symt.jpg",
   "URL-Shortner":"assets/generated-image.png",
   // Add more mappings like this
