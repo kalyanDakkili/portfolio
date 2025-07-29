@@ -5,7 +5,9 @@ const repoImages = {
   "portfolio": "assets/portfolio.png",
   "Customer-Segmentation": "assets/Customer.jpg",
   "ecommerce-platform":"assets/sc.png",
-  "Scalable-Observability-on-AWS" :
+  "Scalable-Observability-on-AWS" : "sooa.png",
+  "System-Monitoring-Tool":"symt.jpg",
+  "URL-Shortner":"generated-image.png",
   // Add more mappings like this
 };
 
